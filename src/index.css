@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family:
+      'Epilogue',
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('./assets/fonts/Inter-VariableFont_slnt_wght.ttf');
+}

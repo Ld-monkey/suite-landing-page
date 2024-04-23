@@ -1,7 +1,11 @@
+import Header from '../Header/Header';
+import Hero from '../Hero/Hero';
+
 function App() {
   return (
-    <div>
-      <p className="text-2xl text-red-500 font-bold underline">Hello World</p>
+    <div className="container m-auto w-11/12">
+      <Header />
+      <Hero />
     </div>
   );
 }
