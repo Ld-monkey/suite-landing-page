@@ -8,6 +8,11 @@ export default {
         grey: '#49566D',
         'cream-white': '#FAF8F6',
       },
+      backgroundImage: {
+        'hero-portrait': "url('./src/assets/images/image-hero-portrait.webp')",
+        'hero-landscape':
+          "url('./src/assets/images/image-hero-landscape.webp')",
+      },
     },
   },
   plugins: [],
