@@ -7,6 +7,7 @@ export default {
         'dark-blue': '#172339',
         grey: '#49566D',
         'cream-white': '#FAF8F6',
+        cream: '#F3EDE7',
       },
       backgroundImage: {
         'hero-portrait': "url('./src/assets/images/image-hero-portrait.webp')",
