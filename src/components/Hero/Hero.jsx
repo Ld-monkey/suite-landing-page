@@ -1,10 +1,10 @@
 /* eslint-disable no-octal-escape */
 function Hero() {
   return (
-    <main className="mt-14 grid grid-cols-1 gap-16 sm:grid-cols-5 sm:gap-0 sm:gap-y-24 lg:h-[600px] lg:grid-cols-6">
+    <main className="mt-14 grid grid-cols-1 gap-16 sm:grid-cols-5 sm:gap-0 sm:gap-y-24 lg:h-[600px] lg:grid-cols-[1fr_350px_285px]">
       {/* Presentation */}
-      <section className="flex flex-col justify-center gap-10 rounded-lg sm:col-span-3 sm:h-[482px]">
-        <h1 className="break-normal text-4xl sm:text-[3.5rem] sm:leading-[4rem] sm:tracking-wide">
+      <section className="col-span-1 flex flex-col justify-center gap-10 rounded-lg sm:col-span-3  sm:h-[482px] lg:col-span-1">
+        <h1 className="break-normal text-4xl sm:text-[3.5rem] sm:leading-[4rem] sm:tracking-[0.75px] lg:text-7xl">
           A
           <span className="absolute z-10 font-bold text-dark-blue before:content-['\00a0']">
             super solution
@@ -28,10 +28,10 @@ function Hero() {
       </section>
 
       {/* Phone image */}
-      <div className="z-0 h-[240px] rounded-[15px] bg-hero-landscape bg-cover bg-no-repeat sm:col-span-2 sm:h-full sm:bg-hero-portrait" />
+      <div className="z-0 col-span-1 h-[240px] rounded-[15px] bg-hero-landscape bg-contain bg-bottom bg-no-repeat sm:col-span-2 sm:h-full sm:bg-hero-portrait lg:col-span-1" />
 
       {/* Features */}
-      <section className="flex flex-col justify-around gap-8 border border-sky-400 sm:col-span-full sm:flex-row lg:col-span-1 lg:flex-col">
+      <section className="flex flex-col justify-around gap-8 sm:col-span-full sm:flex-row lg:col-span-1 lg:flex-col lg:justify-center lg:gap-16">
         <div className="text-center uppercase">
           <p className="text-5xl font-bold leading-[3.5rem] text-dark-blue">
             2K +
