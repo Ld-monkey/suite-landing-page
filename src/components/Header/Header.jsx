@@ -9,7 +9,7 @@ function Header() {
       </svg>
       <button
         type="button"
-        className="border-dark-blue rounded-lg border px-3 py-4 text-sm font-bold hover:underline"
+        className="rounded-md border border-dark-blue px-6 py-3 text-sm font-bold hover:bg-dark-blue hover:text-white"
       >
         Request Beta Access
       </button>

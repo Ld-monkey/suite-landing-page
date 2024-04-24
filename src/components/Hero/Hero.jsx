@@ -21,7 +21,7 @@ function Hero() {
         </p>
         <button
           type="button"
-          className="self-start rounded-lg bg-dark-blue px-8 py-4 font-bold text-cream-white"
+          className="self-start rounded-md bg-dark-blue from-[#A060FF] from-0% via-[#CB30E3] via-[49%] to-[#FFA84E] to-100% px-8 py-4 font-bold text-cream-white hover:bg-gradient-to-br"
         >
           Request Beta Access
         </button>
